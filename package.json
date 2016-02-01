@@ -1,0 +1,43 @@
+{
+  "name": "snp.c",
+  "version": "0.0.1",
+  "description": "SNP components",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start ./static-source/karma.conf.js --auto-watch",
+    "build": "webpack --config source/webpack.conf.js",
+    "build-dev": "webpack --watch --debug --devtool sourcemap --output-pathinfo --config source/webpack.conf.js"
+  },
+  "author": "SERP.team",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "backbone": "latest",
+    "jquery": "latest",
+    "jquery.cookie": "latest",
+    "underscore": "latest"
+  },
+  "devDependencies": {
+    "babel": "latest",
+    "babel-core": "latest",
+    "babel-loader": "latest",
+    "babel-preset-es2015": "latest",
+    "chai": "^3.2.0",
+    "chai-as-promised": "^5.1.0",
+    "chromedriver": "^2.18.0",
+    "istanbul": "^0.3.17",
+    "karma": "^0.13.9",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-mocha": "^0.2.0",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "karma-sourcemap-loader": "^0.3.5",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.2.5",
+    "loader-utils": "^0.2.11",
+    "phantomjs": "^1.9.18",
+    "selenium-webdriver": "^2.46.1",
+    "shelljs": "^0.5.3",
+    "sinon": "git://github.com/cjohansen/Sinon.JS#sinon-2.0",
+    "webpack": "^1.11.0"
+  }
+}

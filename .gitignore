@@ -1,0 +1,23 @@
+### JavaScript ###
+node_modules
+coverage
+npm-debug.log
+local.config.js
+build/js
+
+### SublimeText ###
+# cache files for sublime text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# workspace files are user-specific
+*.sublime-workspace
+
+# project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using SublimeText
+*.sublime-project
+
+
+### PyCharm ###
+.idea/
