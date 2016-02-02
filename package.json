@@ -1,16 +1,15 @@
 {
-  "name": "snp.c",
+  "name": "muce.io",
   "version": "0.0.1",
-  "description": "SNP components",
+  "description": "Backbone based js framework with components",
   "main": "index.js",
   "scripts": {
     "test": "karma start ./static-source/karma.conf.js --auto-watch",
     "build": "webpack --config source/webpack.conf.js",
     "build-dev": "webpack --watch --debug --devtool sourcemap --output-pathinfo --config source/webpack.conf.js"
   },
-  "author": "SERP.team",
-  "license": "ISC",
-  "private": true,
+  "author": "Aleksandr Korolev",
+  "license": "MIT",
   "dependencies": {
     "backbone": "latest",
     "jquery": "latest",
@@ -37,7 +36,7 @@
     "phantomjs": "^1.9.18",
     "selenium-webdriver": "^2.46.1",
     "shelljs": "^0.5.3",
-    "sinon": "git://github.com/cjohansen/Sinon.JS#sinon-2.0",
+    "sinon": "git://github.com/cjohansen/Sinon.JS",
     "webpack": "^1.11.0"
   }
 }

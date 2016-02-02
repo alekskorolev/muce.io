@@ -2,14 +2,15 @@ import _ from 'underscore';
 import $ from 'jquery';
 import {history} from 'backbone';
 
+import './lib/gettext'
+import Storage from './lib/storage';
+
 import BaseView from './lib/base_view';
 import BaseModel from './lib/base_model';
 import BaseCollection from './lib/base_collection';
 import BaseComponent from './lib/base_component';
 import BaseRouter from './lib/base_router';
 import ComponentsView from './lib/components';
-import './lib/gettext'
-import Storage from './lib/storage';
 
 
 

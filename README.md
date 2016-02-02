@@ -1,10 +1,10 @@
 ## Synopsis
 
-Components library.
+Components based library.
 
 ## Installation
 ```
-npm install --save git+https://stash.wargaming.net/~a_korolev/wg-components.git
+npm install --save git+ssh@github.com:alekskorolev/muce.io.git
 ```
 
 ## Build example
@@ -24,8 +24,8 @@ This library wrapped in UMD, so you can use it in CommonJS, ES6 import based pro
 in your application
 
 ```
-import {components} from 'wg-components';
-import customComponent from 'path/to/your/custom/components/based/from/wg-components/base_component';
+import {components} from 'muse.io';
+import customComponent from 'path/to/your/custom/components/based/from/muce.io/base_component';
 
 components.addComponnets(customComponent);
 ```
@@ -44,7 +44,7 @@ npm run test
 
 The MIT License (MIT)
 
-Copyright (c) 2015 Pavel Kovalev <p_kovalev@wargaming.net>
+Copyright (c) 2016 Aleksandr korolev <aleksandr@korolev.email>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
