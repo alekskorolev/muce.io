@@ -36,6 +36,10 @@
     "phantomjs": "^1.9.18",
     "selenium-webdriver": "^2.46.1",
     "shelljs": "^0.5.3",
+    "style-loader": "^0.13.0",
+    "sass-loader": "^3.1.2",
+    "node-sass": "^3.4.2",
+    "css-loader": "^0.23.1",
     "sinon": "git://github.com/cjohansen/Sinon.JS",
     "webpack": "^1.11.0"
   }
