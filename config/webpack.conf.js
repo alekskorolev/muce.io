@@ -19,7 +19,7 @@ module.exports = {
     },
     module: {
         loaders: [
-            {test: /\.html$/, loader: 'exthogan'},
+            {test: /\.html$/, loader: 'ehogan'},
             {test: /\.js$/, loader: 'babel'},
             {test: /\.scss$/, loaders: ["style", "css", "sass"]}
         ]
