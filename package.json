@@ -1,6 +1,6 @@
 {
   "name": "muce.io",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Backbone based js framework with components",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,9 @@
     "jquery": "latest",
     "jquery.cookie": "latest",
     "underscore": "latest"
+  },
+  "peerDependencies": {
+    "ehogan-loader": "latest"
   },
   "devDependencies": {
     "babel": "latest",

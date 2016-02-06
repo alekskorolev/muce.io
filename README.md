@@ -35,6 +35,8 @@ and your templates
 <jsc-custom-component [options]>[content]</jsc-custom-component>
 ```
 
+** for use components include [ehogan-loader](https://github.com/alexkorolev/ehogan-loader) for your build enviroment
+
 ## Tests
 
 ### Run tests
