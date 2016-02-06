@@ -1,12 +1,10 @@
 {
   "name": "muce.io",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "description": "Backbone based js framework with components",
   "main": "index.js",
   "scripts": {
-    "test": "karma start ./static-source/karma.conf.js --auto-watch",
-    "build": "webpack --config source/webpack.conf.js",
-    "build-dev": "webpack --watch --debug --devtool sourcemap --output-pathinfo --config source/webpack.conf.js"
+    "test": "karma start ./config/karma.conf.js --auto-watch",
   },
   "author": "Aleksandr Korolev",
   "license": "MIT",

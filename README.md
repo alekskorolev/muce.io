@@ -4,30 +4,31 @@ Components based library.
 
 ## Installation
 ```
-npm install --save git+ssh@github.com:alekskorolev/muce.io.git
+npm install muce.io
 ```
-
-## Build example
-```
-npm run build
-```
-
-## View example
-```
-npm run example
-```
-and open http://localhost:3000/
 
 ## Usage
 
 This library wrapped in UMD, so you can use it in CommonJS, ES6 import based projects.
+
 in your application
 
 ```
-import {components} from 'muse.io';
-import customComponent from 'path/to/your/custom/components/based/from/muce.io/base_component';
+import components ,{
+	BaseComponent,
+	BaseSimpleComponent,
+	// and libraries for make application with Backbone like api
+    BaseCollection,
+    BaseModel,
+    BaseView,
+    BaseRouter,
+    Storage,
+    startHistory 
+} from 'muce.io';
 
-components.addComponnets(customComponent);
+class CustomComponent extends BaseComponent {}
+
+components.addComponnets([CustomComponent]);
 ```
 and your templates
 ```
