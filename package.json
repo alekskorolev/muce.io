@@ -1,6 +1,6 @@
 {
   "name": "muce.io",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Backbone based js framework with components",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "underscore": "latest"
   },
   "peerDependencies": {
-    "ehogan-loader": "latest"
+    "ehogan-loader": "^0.1.2"
   },
   "devDependencies": {
     "babel": "latest",
