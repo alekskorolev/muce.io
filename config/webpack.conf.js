@@ -1,5 +1,4 @@
-var CommonsChunkPlugin = require('webpack/lib/optimize/CommonsChunkPlugin'),
-    path = require('path'),
+var path = require('path'),
     fs = require('fs');
 
 fs.exists(path.join(__dirname, '/../local.config.js'), function(exist) {
