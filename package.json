@@ -1,12 +1,12 @@
 {
   "name": "muce.io",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "Backbone based js framework with components",
   "main": "index.js",
   "scripts": {
     "test": "karma start ./config/karma.conf.js --auto-watch"
-  }, 
-  "engines": { 
+  },
+  "engines": {
     "npm" : ">=3.0.0",
     "node" : ">=4.0.0"
   },
