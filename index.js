@@ -2,7 +2,6 @@ import _ from 'underscore';
 import $ from 'jquery';
 import {history} from 'backbone';
 
-import './lib/gettext'
 import Storage from './lib/storage';
 
 import BaseView from './lib/base_view';
@@ -15,14 +14,9 @@ import ComponentsView from './lib/components';
 
 
 
-var components,
-	startHistory;
+var startHistory;
 
-components = new ComponentsView();
-window.jscInit = _.bind(components.initComponent, components);
 startHistory = _.bind(history.start, history);
-
-export default components;
 
 export {
     _,

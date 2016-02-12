@@ -16,10 +16,10 @@
   },
   "peerDependencies": {
     "ehogan-loader": "latest",
-    "backbone": "latest",
-    "jquery": "latest",
-    "jquery.cookie": "latest",
-    "underscore": "latest"
+    "backbone": ">=1.2.3",
+    "jquery": ">=1.11.3",
+    "jquery.cookie": ">=1.4.1",
+    "underscore": ">=1.8.3"
   },
   "devDependencies": {
     "babel": "latest",
