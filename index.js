@@ -1,4 +1,5 @@
 import _ from 'underscore';
+import './lib/underscore_extend';
 import $ from 'jquery';
 import {history} from 'backbone';
 
