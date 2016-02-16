@@ -1,6 +1,6 @@
-import _ from 'underscore';
-import './lib/underscore_extend';
+import _ from './lib/underscore_extend';
 import $ from 'jquery';
+import Backbone from 'backbone';
 import {history} from 'backbone';
 
 import Storage from './lib/storage';

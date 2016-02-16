@@ -7,14 +7,12 @@
     "test": "karma start ./config/karma.conf.js --auto-watch"
   },
   "engines": {
-    "npm" : ">=3.0.0",
-    "node" : ">=4.0.0"
+    "npm": ">=3.0.0",
+    "node": ">=4.0.0"
   },
   "author": "Aleksandr Korolev",
   "license": "MIT",
   "dependencies": {
-  },
-  "peerDependencies": {
     "ehogan-loader": "latest",
     "backbone": ">=1.2.3",
     "jquery": ">=1.11.3",
@@ -25,11 +23,13 @@
     "babel": "latest",
     "babel-core": "latest",
     "babel-loader": "latest",
-    "babel-runtime": "latest",
+    "babel-plugin-object-assign": "^1.2.1",
     "babel-preset-es2015": "latest",
+    "babel-runtime": "latest",
     "chai": "^3.2.0",
     "chai-as-promised": "^5.1.0",
     "chromedriver": "^2.18.0",
+    "css-loader": "^0.23.1",
     "istanbul": "^0.3.17",
     "karma": "^0.13.9",
     "karma-chrome-launcher": "^0.2.0",
@@ -37,16 +37,15 @@
     "karma-phantomjs-launcher": "^0.2.1",
     "karma-sourcemap-loader": "^0.3.5",
     "karma-webpack": "^1.7.0",
-    "mocha": "^2.2.5",
     "loader-utils": "^0.2.11",
+    "mocha": "^2.2.5",
+    "node-sass": "^3.4.2",
     "phantomjs": "^1.9.18",
+    "sass-loader": "^3.1.2",
     "selenium-webdriver": "^2.46.1",
     "shelljs": "^0.5.3",
-    "style-loader": "^0.13.0",
-    "sass-loader": "^3.1.2",
-    "node-sass": "^3.4.2",
-    "css-loader": "^0.23.1",
     "sinon": "git://github.com/cjohansen/Sinon.JS",
+    "style-loader": "^0.13.0",
     "webpack": "^1.11.0"
   }
 }
