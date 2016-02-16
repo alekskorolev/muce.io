@@ -11,7 +11,6 @@ import BaseCollection from './lib/base_collection';
 import BaseComponent from './lib/base_component';
 import BaseSimpleComponent from './lib/base_simple_component';
 import BaseRouter from './lib/base_router';
-import ComponentsView from './lib/components';
 
 
 

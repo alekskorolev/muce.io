@@ -1,6 +1,6 @@
 {
   "name": "muce.io",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "Backbone based js framework with components",
   "main": "index.js",
   "scripts": {
