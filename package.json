@@ -6,6 +6,18 @@
   "scripts": {
     "test": "karma start ./config/karma.conf.js --auto-watch"
   },
+  "homepage": "https://github.com/alekskorolev/muce.io",
+  "issues": "https://github.com/alekskorolev/muce.io/issues",
+  "author": {
+      "name": "Aleksandr Korolev",
+      "email": "alexandr@korolev.email",
+      "url": "https://github.com/alekskorolev"
+  },
+  "repository": {
+      "type": "git",
+      "url": "git://github.com/alekskorolev/muce.io.git"
+  },
+  "main": "index.js",
   "engines": {
     "npm" : ">=3.0.0",
     "node" : ">=4.0.0"
