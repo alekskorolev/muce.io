@@ -10,10 +10,10 @@ fs.exists(path.join(__dirname, '/../local.config.js'), function(exist) {
 module.exports = {
     context: path.join(__dirname + '/..'),
     entry: {
-        'index': './clib/source.js'
+        'index': '../index.js'
     },
     output: {
-        path: path.join(__dirname, '/../styleguide/js'),
+        path: path.join(__dirname, '../js'),
         filename: '[name].js'
     },
     module: {

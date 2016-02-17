@@ -14,6 +14,7 @@ This library wrapped in UMD, so you can use it in CommonJS, ES6 import based pro
 in your application
 
 ```
+import jscAdd from 'ehogan-loader/jscmanager';
 import components ,{
 	BaseComponent,
 	BaseSimpleComponent,
@@ -23,12 +24,13 @@ import components ,{
     BaseView,
     BaseRouter,
     Storage,
-    startHistory 
+    startHistory
 } from 'muce.io';
 
 class CustomComponent extends BaseComponent {}
 
-components.addComponnets([CustomComponent]);
+
+jscAdd([CustomComponent]);
 ```
 and your templates
 ```
