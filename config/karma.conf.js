@@ -1,8 +1,6 @@
-var CommonsChunkPlugin = require('webpack/lib/optimize/CommonsChunkPlugin'),
-    DedupePlugin = require('webpack/lib/optimize/DedupePlugin');
-var path = require('path'),
-    fs = require('fs');
-var coverage = process.env.npm_config_cV,
+var DedupePlugin = require('webpack/lib/optimize/DedupePlugin');
+    path = require('path'),
+    coverage = process.env.npm_config_cV,
     reporters = ['progress'],
     loaders = [
         {test: /\.js$/, loader: 'babel'},
