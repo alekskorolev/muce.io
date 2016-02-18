@@ -4,6 +4,7 @@ import Backbone from 'backbone';
 import {history} from 'backbone';
 
 import Storage from './lib/storage';
+import browserDetector from './lib/browser_detector';
 
 import BaseView from './lib/base_view';
 import BaseModel from './lib/base_model';
@@ -26,6 +27,7 @@ export {
     BaseView,
     BaseRouter,
     BaseSimpleComponent,
+    browserDetector,
     Storage,
     startHistory
 }
