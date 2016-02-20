@@ -1,4 +1,4 @@
-var DedupePlugin = require('webpack/lib/optimize/DedupePlugin');
+var DedupePlugin = require('webpack/lib/optimize/DedupePlugin'),
     path = require('path'),
     coverage = process.env.npm_config_cV,
     reporters = ['progress'],

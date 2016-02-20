@@ -20,6 +20,7 @@ var startHistory;
 startHistory = _.bind(history.start, history);
 
 export {
+    $,
     _,
     BaseCollection,
     BaseComponent,

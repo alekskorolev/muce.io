@@ -27,5 +27,8 @@ module.exports = {
         root: [path.join(__dirname, '/../')]
     },
     devtool: 'source-map',
-    debug: true
+    debug: true,
+    plugins: [
+        new webpack.optimize.DedupePlugin()
+    ]
 }
