@@ -3,7 +3,7 @@ import $ from 'jquery';
 import Backbone from 'backbone';
 import {history} from 'backbone';
 
-//import Storage from './lib/storage';
+import Storage from './lib/storage';
 import browserDetector from './lib/browser_detector';
 
 import BaseView from './lib/base_view';
@@ -29,6 +29,6 @@ export {
     BaseRouter,
     BaseSimpleComponent,
     browserDetector,
-//    Storage,
+    Storage,
     startHistory
 }
