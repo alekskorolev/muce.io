@@ -1,7 +1,6 @@
 import _ from './lib/underscore_extend';
 import $ from 'jquery';
-import Backbone from 'backbone';
-import {history} from 'backbone';
+import Backbone, {history} from 'backbone';
 
 import Storage from './lib/storage';
 import browserDetector from './lib/browser_detector';
@@ -28,6 +27,7 @@ export {
     BaseView,
     BaseRouter,
     BaseSimpleComponent,
+    Backbone,
     browserDetector,
     Storage,
     startHistory
