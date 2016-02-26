@@ -24,6 +24,16 @@ describe('Main script import and build', () => {
         expect(Storage).to.be.a('function');
         expect(startHistory).to.be.a('function');
         expect(_.extract).to.be.a('function');
-        expect(_.mixed).to.be.a('function');
+    });
+    describe('_', () => {
+        it('.extract should be extract recursive property by string', () => {
+            var obj = {
+                recursive: {
+                    prop: 1
+                }
+            }
+            expect(_.extract(obj, 'recursive.prop')).to.be.equal(1);
+            expect(_.extract(obj, 'undef.prop')).to.be.an('undefined');
+        });
     });
 });
