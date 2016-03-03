@@ -1,10 +1,10 @@
 {
   "name": "muce.io",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "Backbone based js framework with components",
   "main": "index.js",
   "scripts": {
-    "test": "karma start ./config/karma.conf.js --auto-watch"
+    "test": "karma start ./tests/karma.conf.js --auto-watch"
   },
   "homepage": "https://github.com/alekskorolev/muce.io",
   "issues": "https://github.com/alekskorolev/muce.io/issues",
