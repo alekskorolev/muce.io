@@ -3,6 +3,7 @@ import $  from 'jquery'
 import BaseCollection  from './lib/base_collection'
 import BaseComponent  from './lib/base_component'
 import BaseModel  from './lib/base_model'
+import ParallelModel from './lib/parallel_model'
 import BaseRouter  from './lib/base_router'
 import BaseSimpleComponent  from './lib/base_simple_component'
 import BaseView  from './lib/base_view'
@@ -27,6 +28,7 @@ export {
     BaseSimpleComponent,
     Backbone,
     browserDetector,
+    ParallelModel,
     Storage,
     startHistory
 }
